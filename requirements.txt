@@ -1,0 +1,4 @@
+fastai==2.7.12
+Flask==2.2.2
+Flask-Cors==3.0.9
+Werkzeug==2.2.2
