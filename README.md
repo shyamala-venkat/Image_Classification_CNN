@@ -5,7 +5,7 @@
 This was built with PyTorch/FastAI for the Machine Learning part and Flask as a Webserver. Docker was used for containerization and easy deployment . The dataset used was loaded from fastai library related to Pets data.
 
 
-### Training the CNN Model
+### Training the CNN Mode
 
 Resnet34, a pre-trained model with a large set of images was used for this task.
 Leveraging the knowledge of pre-trained model saves both model building time and resources like GPU.
