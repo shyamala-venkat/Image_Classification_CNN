@@ -14,14 +14,14 @@ cnn_learner API from fastai library was used to create a CNN model with these in
 
 The DataBlock api from Fastai library was used to provide the inputs to the model.
 
-● ImageBlock and Category Block indicate that the input data is in the form of images and the
+ImageBlock and Category Block indicate that the input data is in the form of images and the
 corresponding label for the images is a category.
-● The images will be fetched from the mentioned path.
-● The splitting of data into training and testing sets will be done by the splitter function with the default
+The images will be fetched from the mentioned path.
+The splitting of data into training and testing sets will be done by the splitter function with the default
 splitting of 80-20. 80% of the data for training and 20% for testing phase.
-● The label or the target category for the images are parsed using regular expressions from the image
+The label or the target category for the images are parsed using regular expressions from the image
 names.
-● Some of the data augmentation techniques like zooming, flipping, resizing, etc are applied to the
+Some of the data augmentation techniques like zooming, flipping, resizing, etc are applied to the
 images which can be helpful for the model to generalize well on the new data.
 
 
