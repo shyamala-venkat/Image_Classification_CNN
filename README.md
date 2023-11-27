@@ -7,7 +7,7 @@ This was built with PyTorch/FastAI for the Machine Learning part and Flask as a 
 
 ### Training the CNN Model
 
-Resnet34, a pre-trained model with a large set of images was used for this task.
+Resnet34 was used for this task, which is a convolutional neural network image classification model pre-trained with a large set of images.
 
 Leveraging the knowledge of pre-trained model saves both model building time and resources like GPU.
 
